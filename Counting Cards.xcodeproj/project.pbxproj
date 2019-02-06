@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1602FB52220A7DB6008D5DC1 /* Cards in Resources */ = {isa = PBXBuildFile; fileRef = 1602FB51220A7DB6008D5DC1 /* Cards */; };
 		169478C3220A6782009F9697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169478C2220A6782009F9697 /* AppDelegate.swift */; };
 		169478C5220A6782009F9697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169478C4220A6782009F9697 /* ViewController.swift */; };
 		169478C8220A6782009F9697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169478C6220A6782009F9697 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1602FB51220A7DB6008D5DC1 /* Cards */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cards; path = ../../../../Cards; sourceTree = "<group>"; };
 		169478BF220A6782009F9697 /* Counting Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counting Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169478C2220A6782009F9697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		169478C4220A6782009F9697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1602FB50220A7D9A008D5DC1 /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				1602FB51220A7DB6008D5DC1 /* Cards */,
+				169478D4220A6B8E009F9697 /* CardMLModeling.playground */,
+			);
+			path = "ML Model";
+			sourceTree = "<group>";
+		};
 		169478B6220A6782009F9697 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +66,7 @@
 		169478C1220A6782009F9697 /* Counting Cards */ = {
 			isa = PBXGroup;
 			children = (
-				169478D4220A6B8E009F9697 /* CardMLModeling.playground */,
+				1602FB50220A7D9A008D5DC1 /* ML Model */,
 				169478C2220A6782009F9697 /* AppDelegate.swift */,
 				169478C4220A6782009F9697 /* ViewController.swift */,
 				169478C6220A6782009F9697 /* Main.storyboard */,
@@ -126,6 +137,7 @@
 			files = (
 				169478CD220A6783009F9697 /* LaunchScreen.storyboard in Resources */,
 				169478CA220A6783009F9697 /* Assets.xcassets in Resources */,
+				1602FB52220A7DB6008D5DC1 /* Cards in Resources */,
 				169478C8220A6782009F9697 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
