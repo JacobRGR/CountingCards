@@ -22,6 +22,7 @@
 		169478C9220A6783009F9697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		169478CC220A6783009F9697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		169478CE220A6783009F9697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169478D4220A6B8E009F9697 /* CardMLModeling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CardMLModeling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		169478C1220A6782009F9697 /* Counting Cards */ = {
 			isa = PBXGroup;
 			children = (
+				169478D4220A6B8E009F9697 /* CardMLModeling.playground */,
 				169478C2220A6782009F9697 /* AppDelegate.swift */,
 				169478C4220A6782009F9697 /* ViewController.swift */,
 				169478C6220A6782009F9697 /* Main.storyboard */,
